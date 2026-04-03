@@ -1,0 +1,97 @@
+Initializing Trading Engine and Market Generator...
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /order                    --> backend/internal/api.(*Handler).PlaceOrder-fm (4 handlers)
+[GIN-debug] POST   /cancel                   --> backend/internal/api.(*Handler).CancelOrder-fm (4 handlers)
+[GIN-debug] GET    /portfolio                --> backend/internal/api.(*Handler).GetPortfolio-fm (4 handlers)
+[GIN-debug] GET    /ws                       --> main.main.func3 (4 handlers)
+Systems running. Listening for trades and updates...
+API Server starting on :8080...
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[TRADE] Price: 99.01 | Qty:   0.05 | Buyer: 4602262b | Seller: 505e374f | Time: 12:17:51.790
+[TRADE] Price: 99.37 | Qty:   2.59 | Buyer: 866d2ebe | Seller: d7e21c9c | Time: 12:17:52.991
+[TRADE] Price: 99.68 | Qty:   0.23 | Buyer: 866d2ebe | Seller: a70c0c18 | Time: 12:17:52.991
+[TRADE] Price: 99.68 | Qty:   0.27 | Buyer: 957fac29 | Seller: a70c0c18 | Time: 12:17:53.390
+[TRADE] Price: 99.68 | Qty:   1.44 | Buyer: 378451e7 | Seller: a70c0c18 | Time: 12:17:53.790
+[TRADE] Price: 99.77 | Qty:   0.63 | Buyer: 378451e7 | Seller: 360f1222 | Time: 12:17:53.790
+[TRADE] Price: 99.77 | Qty:   0.58 | Buyer: 60b9f678 | Seller: 360f1222 | Time: 12:17:53.990
+[TRADE] Price: 100.14 | Qty:   0.22 | Buyer: 60b9f678 | Seller: ce2249de | Time: 12:17:53.990
+[TRADE] Price: 100.14 | Qty:   0.30 | Buyer: 2ef8dbf6 | Seller: ce2249de | Time: 12:17:54.191
+[TRADE] Price: 100.24 | Qty:   1.50 | Buyer: 2ef8dbf6 | Seller: 932bd655 | Time: 12:17:54.191
+[TRADE] Price: 101.27 | Qty:   0.46 | Buyer: 2ef8dbf6 | Seller: cbf42241 | Time: 12:17:54.191
+[TRADE] Price: 101.27 | Qty:   0.04 | Buyer: 3ca71b69 | Seller: cbf42241 | Time: 12:17:54.290
+[TRADE] Price: 101.27 | Qty:   0.67 | Buyer: e7fff15b | Seller: cbf42241 | Time: 12:17:54.391
+[TRADE] Price: 101.66 | Qty:   1.11 | Buyer: b89a5b34 | Seller: 621742c2 | Time: 12:17:54.391
+[TRADE] Price: 102.54 | Qty:   0.54 | Buyer: b89a5b34 | Seller: f33ca519 | Time: 12:17:54.391
+[TRADE] Price: 104.29 | Qty:   0.93 | Buyer: b89a5b34 | Seller: 845693b1 | Time: 12:17:54.391
+[TRADE] Price: 104.29 | Qty:   0.50 | Buyer: 4cbf0f94 | Seller: 845693b1 | Time: 12:17:54.490
+[TRADE] Price: 105.11 | Qty:   2.09 | Buyer: 4cbf0f94 | Seller: ea860606 | Time: 12:17:54.490
+[TRADE] Price: 105.11 | Qty:   0.88 | Buyer: 4896e66c | Seller: ea860606 | Time: 12:17:54.490
+[TRADE] Price: 105.34 | Qty:   1.20 | Buyer: 4896e66c | Seller: 8009b1b0 | Time: 12:17:54.490
+[TRADE] Price: 105.34 | Qty:   0.47 | Buyer: add65d3f | Seller: 8009b1b0 | Time: 12:17:54.490
+[TRADE] Price: 105.44 | Qty:   0.33 | Buyer: add65d3f | Seller: 244f603f | Time: 12:17:54.490
+[TRADE] Price: 106.60 | Qty:   1.49 | Buyer: add65d3f | Seller: aef2dbfe | Time: 12:17:54.490
+[TRADE] Price: 106.87 | Qty:   0.33 | Buyer: add65d3f | Seller: 17344929 | Time: 12:17:54.490
+[TRADE] Price: 106.87 | Qty:   0.12 | Buyer: d3ef3e6b | Seller: 17344929 | Time: 12:17:54.591
+[TRADE] Price: 108.15 | Qty:   0.33 | Buyer: d3ef3e6b | Seller: 1c7d73c3 | Time: 12:17:54.591
+[TRADE] Price: 109.22 | Qty:   0.69 | Buyer: bb6375ee | Seller: da20bfc6 | Time: 12:17:54.591
+[TRADE] Price: 109.42 | Qty:   0.26 | Buyer: bb6375ee | Seller: 36e0b7b4 | Time: 12:17:54.591
+[TRADE] Price: 109.42 | Qty:   0.28 | Buyer: d6d59072 | Seller: 36e0b7b4 | Time: 12:17:54.691
+[TRADE] Price: 109.66 | Qty:   0.79 | Buyer: d6d59072 | Seller: bb22507b | Time: 12:17:54.691
+[TRADE] Price: 109.89 | Qty:   0.08 | Buyer: d6d59072 | Seller: 46656c7e | Time: 12:17:54.691
+[TRADE] Price: 109.89 | Qty:   0.27 | Buyer: 29e7c630 | Seller: 46656c7e | Time: 12:17:55.091
+[TRADE] Price: 110.19 | Qty:   1.45 | Buyer: 29e7c630 | Seller: ccd6bfcc | Time: 12:17:55.091
+[TRADE] Price: 110.24 | Qty:   0.30 | Buyer: 29e7c630 | Seller: 3fe112e0 | Time: 12:17:55.091
+[TRADE] Price: 110.24 | Qty:   1.00 | Buyer: 27714c38 | Seller: 3fe112e0 | Time: 12:17:55.091
+[TRADE] Price: 111.51 | Qty:   0.85 | Buyer: 27714c38 | Seller: bae8d2d7 | Time: 12:17:55.091
+[TRADE] Price: 111.51 | Qty:   0.11 | Buyer: 49569952 | Seller: bae8d2d7 | Time: 12:17:55.290
+[TRADE] Price: 111.70 | Qty:   1.90 | Buyer: 49569952 | Seller: 29e9b37c | Time: 12:17:55.290
+[TRADE] Price: 111.30 | Qty:   1.05 | Buyer: 8e5feecf | Seller: d4607452 | Time: 12:17:56.390
+[TRADE] Price: 109.02 | Qty:   0.51 | Buyer: 57ebdde2 | Seller: 1302ef80 | Time: 12:17:56.890
+[TRADE] Price: 109.02 | Qty:   1.06 | Buyer: 57ebdde2 | Seller: 438d6e98 | Time: 12:17:56.890
+[TRADE] Price: 108.68 | Qty:   0.17 | Buyer: 90eac31b | Seller: 438d6e98 | Time: 12:17:56.890
+[TRADE] Price: 108.68 | Qty:   1.91 | Buyer: 90eac31b | Seller: e1e7f45a | Time: 12:17:57.090
+[TRADE] Price: 108.68 | Qty:   0.67 | Buyer: 90eac31b | Seller: 437b2d63 | Time: 12:17:57.490
+[TRADE] Price: 108.68 | Qty:   0.06 | Buyer: 90eac31b | Seller: 78da9df2 | Time: 12:17:57.690
+[TRADE] Price: 108.43 | Qty:   0.44 | Buyer: 00e0deb8 | Seller: 78da9df2 | Time: 12:17:57.690
+[TRADE] Price: 108.17 | Qty:   1.57 | Buyer: d3ef3e6b | Seller: 78da9df2 | Time: 12:17:57.690
+[TRADE] Price: 108.17 | Qty:   0.17 | Buyer: d3ef3e6b | Seller: 7d3e951a | Time: 12:17:57.991
+[TRADE] Price: 107.66 | Qty:   1.24 | Buyer: f0e62df6 | Seller: 7d3e951a | Time: 12:17:57.991
+[TRADE] Price: 107.66 | Qty:   1.30 | Buyer: f0e62df6 | Seller: b6616047 | Time: 12:17:58.091
+[TRADE] Price: 107.61 | Qty:   0.12 | Buyer: f32deb4c | Seller: b6616047 | Time: 12:17:58.091
+[TRADE] Price: 106.50 | Qty:   0.94 | Buyer: 4d49d127 | Seller: b6616047 | Time: 12:17:58.091
+[TRADE] Price: 106.50 | Qty:   1.88 | Buyer: 4d49d127 | Seller: 368b497c | Time: 12:17:59.290
+[TRADE] Price: 106.24 | Qty:   0.54 | Buyer: cf5da0da | Seller: 368b497c | Time: 12:17:59.290
+[TRADE] Price: 106.24 | Qty:   0.33 | Buyer: cf5da0da | Seller: 6176c562 | Time: 12:18:00.190
+[TRADE] Price: 104.57 | Qty:   2.10 | Buyer: 7159482f | Seller: 6176c562 | Time: 12:18:00.190
+[TRADE] Price: 104.57 | Qty:   0.27 | Buyer: 7159482f | Seller: e59e8d55 | Time: 12:18:00.290
+[TRADE] Price: 104.34 | Qty:   1.12 | Buyer: 02bacf39 | Seller: e59e8d55 | Time: 12:18:00.290
+[TRADE] Price: 104.34 | Qty:   0.91 | Buyer: 02bacf39 | Seller: e4e75702 | Time: 12:18:00.391
+[TRADE] Price: 104.32 | Qty:   0.54 | Buyer: 092784c4 | Seller: e4e75702 | Time: 12:18:00.391
+[TRADE] Price: 104.32 | Qty:   0.34 | Buyer: 092784c4 | Seller: 49d559ad | Time: 12:18:00.491
+[TRADE] Price: 103.97 | Qty:   1.45 | Buyer: 5415a947 | Seller: 49d559ad | Time: 12:18:00.491
+[TRADE] Price: 103.97 | Qty:   0.99 | Buyer: 5415a947 | Seller: 7f2565a4 | Time: 12:18:00.491
+[TRADE] Price: 103.94 | Qty:   0.73 | Buyer: c32eea87 | Seller: 7f2565a4 | Time: 12:18:00.491
+[TRADE] Price: 106.40 | Qty:   1.44 | Buyer: a71ece7e | Seller: 5a98db75 | Time: 12:18:02.291
+[TRADE] Price: 106.67 | Qty:   1.44 | Buyer: a71ece7e | Seller: 95973adb | Time: 12:18:02.291
+[TRADE] Price: 106.67 | Qty:   0.46 | Buyer: d9767849 | Seller: 95973adb | Time: 12:18:02.591
+[TRADE] Price: 106.67 | Qty:   0.80 | Buyer: 9642a965 | Seller: 95973adb | Time: 12:18:02.591
+[TRADE] Price: 106.71 | Qty:   0.30 | Buyer: 9642a965 | Seller: 35ffe401 | Time: 12:18:02.591
+[TRADE] Price: 107.28 | Qty:   0.06 | Buyer: 9642a965 | Seller: c506f0d3 | Time: 12:18:02.591
+[TRADE] Price: 107.28 | Qty:   1.90 | Buyer: 4bf722d6 | Seller: c506f0d3 | Time: 12:18:02.591
+[TRADE] Price: 107.28 | Qty:   0.02 | Buyer: 46fb72fe | Seller: c506f0d3 | Time: 12:18:02.691
+[TRADE] Price: 107.30 | Qty:   0.12 | Buyer: 46fb72fe | Seller: 6c8b15c8 | Time: 12:18:02.691
+[TRADE] Price: 107.30 | Qty:   2.78 | Buyer: cb9478b4 | Seller: 6c8b15c8 | Time: 12:18:02.890
+[TRADE] Price: 107.48 | Qty:   0.00 | Buyer: cb9478b4 | Seller: 8f2114e3 | Time: 12:18:02.890
+[TRADE] Price: 107.48 | Qty:   2.58 | Buyer: 049da0e5 | Seller: 8f2114e3 | Time: 12:18:02.991
+[TRADE] Price: 107.60 | Qty:   0.03 | Buyer: 049da0e5 | Seller: 12132c29 | Time: 12:18:02.991
+[TRADE] Price: 107.60 | Qty:   0.19 | Buyer: b012e802 | Seller: 12132c29 | Time: 12:18:02.991
+[TRADE] Price: 107.60 | Qty:   0.60 | Buyer: 96e29203 | Seller: 12132c29 | Time: 12:18:03.191
+[TRADE] Price: 107.89 | Qty:   1.62 | Buyer: 96e29203 | Seller: 1af546cf | Time: 12:18:03.191
+signal: interrupt

@@ -1,0 +1,7 @@
+backend/cmd/server/main.go:7:2: package backend/internal/api is not in std (/usr/lib/golang/src/backend/internal/api)
+backend/cmd/server/main.go:8:2: package backend/internal/engine is not in std (/usr/lib/golang/src/backend/internal/engine)
+backend/cmd/server/main.go:9:2: package backend/internal/events is not in std (/usr/lib/golang/src/backend/internal/events)
+backend/cmd/server/main.go:10:2: package backend/internal/market is not in std (/usr/lib/golang/src/backend/internal/market)
+backend/cmd/server/main.go:11:2: package backend/internal/portfolio is not in std (/usr/lib/golang/src/backend/internal/portfolio)
+backend/cmd/server/main.go:12:2: package backend/internal/ws is not in std (/usr/lib/golang/src/backend/internal/ws)
+backend/cmd/server/main.go:14:2: no required module provides package github.com/gin-gonic/gin: go.mod file not found in current directory or any parent directory; see 'go help modules'

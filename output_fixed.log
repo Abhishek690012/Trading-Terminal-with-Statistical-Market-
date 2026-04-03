@@ -1,0 +1,24 @@
+Initializing Trading Engine and Market Generator...
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /order                    --> backend/internal/api.(*Handler).PlaceOrder-fm (4 handlers)
+[GIN-debug] POST   /cancel                   --> backend/internal/api.(*Handler).CancelOrder-fm (4 handlers)
+[GIN-debug] GET    /portfolio                --> backend/internal/api.(*Handler).GetPortfolio-fm (4 handlers)
+[GIN-debug] GET    /ws                       --> main.main.func3 (4 handlers)
+Systems running. Listening for trades and updates...
+API Server starting on :8080...
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026/04/03 12:22:47 WS Client registered. Total clients: 1
+[GIN] 2026/04/03 - 12:24:00 | 200 | 45.767µs |             ::1 | GET      "/portfolio?user_id=user1"
+2026/04/03 12:24:00 WS Client registered. Total clients: 2
+[GIN] 2026/04/03 - 12:24:02 | 200 |    1m10s |             ::1 | GET      "/ws"
+2026/04/03 12:24:02 WS Client unregistered. Total clients: 1
+[GIN] 2026/04/03 - 12:24:15 | 200 |   14.86s |             ::1 | GET      "/ws"
+2026/04/03 12:24:15 WS Client unregistered. Total clients: 0
+signal: killed
